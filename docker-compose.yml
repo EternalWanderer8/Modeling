@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  app1:
+    image: game2048-app:1.0.0
+    container_name: app1
+    ports:
+      - "8080:8080"
+  app2:
+    image: game2048-app:1.0.0
+    container_name: app2
+    ports:
+      - "4060:8080"
